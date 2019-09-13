@@ -21,6 +21,7 @@ body{
     height: 500px;
     margin: 5px;
     background-size: cover;
+    position: relative;
 }
 
 .box.img1{
@@ -39,4 +40,15 @@ body{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.25);
+}
+
+.city{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
