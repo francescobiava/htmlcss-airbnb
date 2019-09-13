@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0, 60, 156);
+}
+
+.container{
+    width: 510px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 5px;
+    background-size: cover;
+    position: relative;
+}
+
+.box.img1{
+    background-image: url(http://lorempixel.com/output/city-q-c-1920-1920-1.jpg);
+}
+
+.box.img2{
+    background-image: url(http://lorempixel.com/output/city-q-c-1920-1920-10.jpg);
+}
+
+.box.img3{
+    background-image: url(http://lorempixel.com/output/city-q-c-1920-1920-7.jpg);
+}
+
+.layover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.city{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(128, 128, 128);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box:hover .layover{
+    display: none;
+}
+
+.box:hover{
+    cursor: pointer;
+}
