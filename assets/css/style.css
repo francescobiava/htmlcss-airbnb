@@ -22,3 +22,15 @@ body{
     margin: 5px;
     background-size: cover;
 }
+
+.box.img1{
+    background-image: url(http://lorempixel.com/output/city-q-c-1920-1920-1.jpg);
+}
+
+.box.img2{
+    background-image: url(http://lorempixel.com/output/city-q-c-1920-1920-10.jpg);
+}
+
+.box.img3{
+    background-image: url(http://lorempixel.com/output/city-q-c-1920-1920-7.jpg);
+}
