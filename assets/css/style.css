@@ -7,3 +7,18 @@
 body{
     background: rgb(0, 60, 156);
 }
+
+.container{
+    width: 510px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 5px;
+    background-size: cover;
+}
